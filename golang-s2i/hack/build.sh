@@ -25,7 +25,7 @@ test -z "$BASE_IMAGE_NAME" && {
   BASE_IMAGE_NAME="${BASE_DIR_NAME#sti-}"
 }
 
-NAMESPACE="openshift/"
+NAMESPACE="fale/"
 
 function cleanup {
   rm -f ${DOCKERFILE_PATH}.version
