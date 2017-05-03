@@ -25,7 +25,7 @@ items:
       from:
         kind: ImageStreamTag
         name: '1.8'
-    - name: '1.6'
+    - name: '1.7'
       annotations:
         openshift.io/display-name: Go 1.7
         description: Build and run Go 1.7 applications on CentOS 7. For more information
