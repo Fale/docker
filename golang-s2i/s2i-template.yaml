@@ -53,3 +53,9 @@ items:
       from:
         kind: DockerImage
         name: fale/go-18-centos7:latest
+      runtimeImage:
+        kind: DockerImage
+        name: scratch
+      runtimeArtifacts:
+        - sourcePath: /tmp/go/bin/main
+          destinationDir: /usr/local/bin/main

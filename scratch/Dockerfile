@@ -1,0 +1,4 @@
+FROM scratch
+VOLUME /data
+USER 1001
+WORKDIR /

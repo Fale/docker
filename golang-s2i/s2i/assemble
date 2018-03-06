@@ -30,5 +30,7 @@ go install main
 echo
 echo "===> Build completed at $(date)"
 
+cp ${GOBIN}/main /usr/local/bin
+
 # Fix source directory permissions
 fix-permissions ./
